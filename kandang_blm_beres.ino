@@ -30,7 +30,6 @@ void loop() {
   Serial.println(" %");
 delay(1000);
 lcd.setCursor(0,0);
-  lcd.print("TEST LCD i2C");
+  lcd.print("Kandang Ayam data :");
   lcd.setCursor(0,1);
-  lcd.print("KelasRobot.com");
 }
